@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Page Demo">
+    <groups>
+        <run>
+            <include name="Sanity2"></include>
+        </run>
+    </groups>
+    <test name="Chrome Browser">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+<!--            <class name="org.IFrames"></class>-->
+<!--            <class name="org.AnnotationClass"></class>-->
+            <class name="org.LoginTest1"></class>
+        </classes>
+    </test>
+<!--    <test name="FireFox Browser">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="org.LoginTest1">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
